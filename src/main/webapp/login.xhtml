@@ -1,0 +1,39 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<!-- 	<h:outputStylesheet library="css" name="styles.css"></h:outputStylesheet> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<h:outputText value="#{springJSFController.nombreEmpresa}"></h:outputText>
+</h:head>
+<h:body>
+	<div class="ui-fluid">
+	<h:outputText value="#{springJSFController.nombreEmpresa}"></h:outputText>
+		<h:outputText value="#{springJSFController.nombreEmpleado}"></h:outputText>
+<!-- 		<h:form id="formLogin"> -->
+<!-- 			<p:growl id="growl"/> -->
+<!-- 			<p:panel id="panelLogin" header="Inicio de Sesión" style="text-align: center"> -->
+<!-- 			<p:graphicImage name="images/java.png" width="20%"/> -->
+<!-- 				<p:panelGrid columns="1" -->
+<!-- 					columnClasses="ui-g-12 ui-md-12,ui-g-12 ui-md-12" layout="grid" -->
+<!-- 					styleClass="ui-panelgrid-blank ui-fluid" id="panelGridLogin"> -->
+<!-- 					<p:outputLabel value="Usuario:" styleClass="colorText" -->
+<!-- 						for="txtUsuario" style="float: left"></p:outputLabel> -->
+<!-- 					<p:inputText value="#{loginController.usuario}" id="txtUsuario" -->
+<!-- 						required="true" -->
+<!-- 						requiredMessage="El nombre de usuario es requerido"></p:inputText> -->
+<!-- 					<p:outputLabel value="Contraseña:" styleClass="colorText" -->
+<!-- 						for="txtPassword" style="float: left"></p:outputLabel> -->
+<!-- 					<p:password value="#{loginController.password}" id="txtPassword" -->
+<!-- 						required="true" requiredMessage="Debe ingresar una contraseña"></p:password> -->
+<!-- 					<p:outputLabel></p:outputLabel> -->
+<!-- 					<p:commandButton value="Entrar" -->
+<!-- 						action="#{loginController.ingresar}" update="panelLogin, growl"></p:commandButton> -->
+<!-- 				</p:panelGrid> -->
+<!-- 			</p:panel> -->
+<!-- 		</h:form> -->
+	</div>
+</h:body>
+</html>
